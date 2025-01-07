@@ -33,3 +33,8 @@ Example: currentValue = 1, userName = "John"
 - Use camelCase convention for function names.
 - Function names should clearly reflect the action being performed, typically starting with a verb and optionally followed by a noun.
 Example: moveSliderToValue(slider, sliderValue, targetValue)
+
+8. Test Case Naming Convention
+- Alphanumeric Codes: Combining letters and numbers 
+- Using descriptive names
+Example: LG_TC001_ValidCredentials
