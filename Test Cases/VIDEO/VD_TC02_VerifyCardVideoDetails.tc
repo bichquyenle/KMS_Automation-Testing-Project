@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VD_TC02_VerifyCardVideoDetails</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09072757-594d-414e-857e-665de30b1711</testCaseGuid>
+</TestCaseEntity>

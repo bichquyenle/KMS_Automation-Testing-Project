@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://happyminds.onrender.com/video'</initValue>
+      <name>URL_VIDEO_DETAILSL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
