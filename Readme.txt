@@ -12,7 +12,7 @@ Example: URL_HEROKU
 3. Xpath Control Naming Convention
 - Starting with a prefix following with an underscore (_) then follow camelCase convention.
 - The prefix should describe the type of control (e.g., button, label).
-Example: _btnLogin, _lblHelpMessage
+Example: btn_Login, lbl_HelpMessage
 
 4. Step in Writing Test Scripts Convention
 - Steps should be written in single quotes (').
