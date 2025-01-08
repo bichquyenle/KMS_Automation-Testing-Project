@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_ViewCoachArms</name>
+   <name>h5_CardTitle</name>
    <tag></tag>
-   <elementGuidId>79488c6e-d0c3-4420-863e-47b321303f26</elementGuidId>
+   <elementGuidId>1ed875e2-d47f-4f8c-9c9a-5a181ec3dd1c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='content']//div[1]//div[2]//div[1]//div[1]//form[1]//button[1]</value>
+         <value>//h5[contains(text(),'How to Do：FLOOR TRICEP DIPS')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_ViewCoachArms</name>
+   <name>p_Duration</name>
    <tag></tag>
-   <elementGuidId>79488c6e-d0c3-4420-863e-47b321303f26</elementGuidId>
+   <elementGuidId>81660452-b51c-400d-905c-e16cafc65af5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='content']//div[1]//div[2]//div[1]//div[1]//form[1]//button[1]</value>
+         <value>//div[@class='col-lg-8']//div[1]//a[1]//div[1]//div[2]//div[1]//p[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

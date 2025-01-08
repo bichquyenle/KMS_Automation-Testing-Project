@@ -16,40 +16,40 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.WebElement
 
 'Step 1: Open the browser and navigate to the details video page'
-WebUI.openBrowser('https://happyminds.onrender.com/video')
+WebUI.openBrowser(GlobalVariable.URL_VIDEO_DETAILSL)
 
 'Step 2: Click on "View coach" of Arms category'
 WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'), 10)
 WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'))
 
-'Step 3: Verify the text level is displayed as expected'
-String expectedText = "Level1-Arms"
-WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/lbl_Level'), 10)
-String levelText = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/lbl_Level'))
-WebUI.verifyMatch(expectedText, levelText, false)
+'Step 3: Verify the card title is "How to Do: FLOOR TRICEP DIPS"'
+String expectedTitle = "How to Do：FLOOR TRICEP DIPS"
+String levelTitle = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/h5_CardTitle'))
+WebUI.verifyMatch(expectedTitle, levelTitle, false);
 
-'Step 4: Verify the Note title is displayed'
-String expectedTitle = "Note"
-WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/h6_Note'), 10)
-String noteText = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/h6_Note'))
-WebUI.verifyMatch(expectedTitle, noteText, false)
+'Step 4: Verify the level is "Level: beginner"'
+String expectedLevel = "Level: beginner"
+String actualLevel = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/p_CardLevel'))
+WebUI.verifyMatch(expectedLevel, actualLevel, false);
 
-// Get the number of videos on the corresponding "Videos" page after pressing View Coach
-List<WebElement> videosOnVideoPage = WebUI.findWebElements(findTestObject('Object Repository/VIDEO_PAGE/dri_VideoContainer'), 0)
-int videoCountOnVideoPage = videosOnVideoPage.size()
+'Step 5: Verify the duration is "Duration: 45s"'
+String expectedDuration = "Duration: 45s"
+String actualDuration = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/p_Duration'))
+WebUI.verifyMatch(expectedDuration, actualDuration, false);
 
-int expectedVideos = Integer.parseInt(WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/span_VideoNumber')))
+'Step 6: Verify the rep is "Rep : 20"'
+String expectedRep = "Rep : 20"
+String actualRep = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/p_Rep'))
+WebUI.verifyMatch(expectedRep, actualRep, false);
 
-'Step 5: Check if the number of videos on two pages is equal'
-if (expectedVideos == videoCountOnVideoPage) {
-	WebUI.comment("Test Passed: The number of videos is the same on both pages.")
-} else {
-	WebUI.comment("Test Failed: The number of videos is not the same.")
-}
+'Step 7: Verify the total calo is "Total calories: 20 calo"'
+String expectedCalo = "Total calories: 20 calo"
+String actualCalo = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/p_TotalCalo'))
+WebUI.verifyMatch(expectedCalo, actualCalo, false);
 
+//clean the browser
 WebUI.closeBrowser()
