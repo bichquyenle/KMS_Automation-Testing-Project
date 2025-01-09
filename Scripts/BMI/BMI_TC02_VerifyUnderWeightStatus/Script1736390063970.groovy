@@ -18,20 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Step 1: Open the browser and navigate to the details video page'
-WebUI.openBrowser(GlobalVariable.URL_VIDEO_DETAILSL)
+WebUI.openBrowser(GlobalVariable.URL_HOMEPAGE)
 
-'Step 2: Click on "View coach" of Arms category'
-WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'), 10)
-WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'))
+'Step 2: Enter height: 170 cm into the textbox'
+WebUI.setText(findTestObject('Object Repository/BMI_PAGE/txt_Height'), '160')
 
-'Step 3: Click on "Watch" Button'
-WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_Watch'))
+'Step 3: Enter weight: 65 kg into the textbox'
+WebUI.setText(findTestObject('Object Repository/BMI_PAGE/txt_Weight'), '45')
 
-'Step 4: Verify that the Practice Page includes: Video'
-WebUI.verifyElementPresent(findTestObject('Object Repository/VIDEO_PAGE/vd_Video'), 10)
+'Step 4:Verify that the system displays the BMI is 17.58. '
+String BMIResult = WebUI.getAttribute(findTestObject('Object Repository/BMI_PAGE/txt_BMI'), 'value')
+WebUI.verifyMatch(BMIResult, '17.58', false)
 
-'Step 5: Verify that the Practice Page includes: practice board'
-WebUI.verifyElementPresent(findTestObject('Object Repository/VIDEO_PAGE/div_PracticeBoard'), 10)
+'Step 5: Verify that the system displays the status is "Underweight"'
+String statusResult = WebUI.getAttribute(findTestObject('Object Repository/BMI_PAGE/txt_WeightStatus'), 'value')
+WebUI.verifyMatch(statusResult, 'Underweight', false)
 
 'Step 6: Clean browser'
 WebUI.closeBrowser()
