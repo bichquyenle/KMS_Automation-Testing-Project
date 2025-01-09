@@ -17,12 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Step 1: Open the browser and navigate to the details video page'
-WebUI.openBrowser(GlobalVariable.URL_VIDEO_DETAILSL)
+//'Step 1: Open the browser and navigate to the details video page'
+//WebUI.openBrowser(GlobalVariable.URL_VIDEO_DETAILSL)
 
-'Step 2: Click on "View coach" of Arms category'
-WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'), 10)
-WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'))
+//'Step 2: Click on "View coach" of Arms category'
+//WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'), 10)
+//WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'))
 
 'Step 3: Click on "Watch" Button'
 WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_Watch'))
@@ -33,5 +33,5 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/VIDEO_PAGE/vd_Video
 'Step 5: Verify that the Practice Page includes: practice board'
 WebUI.verifyElementPresent(findTestObject('Object Repository/VIDEO_PAGE/div_PracticeBoard'), 10)
 
-'Step 6: Clean browser'
-WebUI.closeBrowser()
+//'Step 6: Clean browser'
+//WebUI.closeBrowser()

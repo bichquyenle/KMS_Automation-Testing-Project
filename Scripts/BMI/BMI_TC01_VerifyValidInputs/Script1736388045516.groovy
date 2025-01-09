@@ -34,5 +34,5 @@ WebUI.verifyMatch(BMIResult, '22.49', false)
 String statusResult = WebUI.getAttribute(findTestObject('Object Repository/BMI_PAGE/txt_WeightStatus'), 'value')
 WebUI.verifyMatch(statusResult, 'Healthy', false)
 
-'Step 6: Clean browser'
-WebUI.closeBrowser()
+//'Step 6: Clean browser'
+//WebUI.closeBrowser()

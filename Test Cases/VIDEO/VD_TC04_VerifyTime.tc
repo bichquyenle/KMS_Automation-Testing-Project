@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>VD_TC04_VerifyTime</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7ebf0242-330f-4784-97af-97cb5d02bcc2</testCaseGuid>
-</TestCaseEntity>

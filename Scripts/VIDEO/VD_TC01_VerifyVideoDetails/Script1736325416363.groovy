@@ -56,4 +56,4 @@ if (expectedVideos == videoCountOnVideoPage) {
 }
 
 //clean browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

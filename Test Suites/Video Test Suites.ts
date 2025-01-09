@@ -12,17 +12,24 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>83a2dba0-ed27-4f66-b05a-88ad746d419a</testSuiteGuid>
    <testCaseLink>
-      <guid>45032769-21cd-40f9-a4fe-e0eae6fbc970</guid>
+      <guid>f0a2f0e4-0311-4786-9f1e-bda85720e70c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/VIDEO/VD_TC01_VerifyVideoDetails</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e77cc14-da92-4bbb-8268-6b2b159791f1</guid>
+      <guid>9cd57613-b540-482b-a9a6-8b9bda038830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/VIDEO/VD_TC02_VerifyCardVideoDetails</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db53561f-3d6e-4b37-aeda-8579cf31c843</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/VIDEO/VD_TC03_VerifyDirection</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
