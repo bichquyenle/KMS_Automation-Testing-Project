@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BMI_TC04_VerifyObeseStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8436576-88fe-493c-a1ae-64fac061080c</testCaseGuid>
+</TestCaseEntity>
