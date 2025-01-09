@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BMI_TC06_VerifyInvalidInputs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f1ce6cd-1184-4f80-833a-b0b35fe20a5b</testCaseGuid>
+</TestCaseEntity>
