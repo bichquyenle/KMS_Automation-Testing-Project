@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Step 1: Open the browser and navigate to the details video page'
-WebUI.openBrowser(GlobalVariable.URL_HOMEPAGE)
+//'Step 1: Open the browser and navigate to the details video page'
+//WebUI.openBrowser(GlobalVariable.URL_HOMEPAGE)
 
 'Step 2: Enter height: -1 cm into the textbox'
 WebUI.setText(findTestObject('Object Repository/BMI_PAGE/txt_Height'), '1000000')

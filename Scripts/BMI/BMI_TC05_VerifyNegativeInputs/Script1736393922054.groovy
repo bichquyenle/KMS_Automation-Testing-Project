@@ -55,8 +55,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Step 1: Open the browser and navigate to the details video page'
-WebUI.openBrowser(GlobalVariable.URL_HOMEPAGE)
+//'Step 1: Open the browser and navigate to the details video page'
+//WebUI.openBrowser(GlobalVariable.URL_HOMEPAGE)
 
 'Step 2: Enter height: -1 cm into the textbox'
 WebUI.setText(findTestObject('Object Repository/BMI_PAGE/txt_Height'), '-1')
@@ -78,5 +78,5 @@ if (statusResult == null) {
 }
 WebUI.verifyMatch(statusResult, '',false, FailureHandling.CONTINUE_ON_FAILURE)
 
-'Step 6: Close the browser'
-WebUI.closeBrowser()
+//'Step 6: Close the browser'
+//WebUI.closeBrowser()

@@ -20,11 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.WebElement
 
 'Step 1: Open the browser and navigate to the details video page'
-WebUI.openBrowser(GlobalVariable.URL_VIDEO_DETAILSL)
+//WebUI.openBrowser(GlobalVariable.URL_VIDEO_DETAILSL)
 
 'Step 2: Click on "View coach" of Arms category'
-WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'), 10)
-WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'))
+//WebUI.waitForElementVisible(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'), 10)
+//WebUI.click(findTestObject('Object Repository/VIDEO_PAGE/btn_ViewCoachArms'))
 
 'Step 3: Verify the card title is "How to Do: FLOOR TRICEP DIPS"'
 String expectedTitle = "How to Do：FLOOR TRICEP DIPS"
@@ -52,4 +52,4 @@ String actualCalo = WebUI.getText(findTestObject('Object Repository/VIDEO_PAGE/p
 WebUI.verifyMatch(expectedCalo, actualCalo, false);
 
 //clean the browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

@@ -44,7 +44,7 @@ WebUI.setText( findTestObject('Object Repository/BLOG_PAGE/txt_Title'), 'Hello')
 WebUI.setText(findTestObject('Object Repository/BLOG_PAGE/txt_Content') , 'This is content')
 
 'Step 9: "Click on "Choose File" button and upload a png file'
-WebUI.uploadFile( findTestObject('Object Repository/BLOG_PAGE/lbl_UploadImage'), 'C:\\Users\\admin\\Pictures\\Screenshots\\meo.png')
+WebUI.uploadFile( findTestObject('Object Repository/BLOG_PAGE/lbl_UploadImage'), 'C:\\Users\\admin\\Katalon Studio\\KMS_Automation Testing Project\\Assets\\pn-logo.png')
 WebUI.scrollToPosition(0, 500)
 
 'Step 10: Click on the "Post" button '
