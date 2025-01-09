@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BMI_TC03_VerifyOverweightStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6d148ac-b828-47e5-b72c-790f69271f84</testCaseGuid>
+</TestCaseEntity>
