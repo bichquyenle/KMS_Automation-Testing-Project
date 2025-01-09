@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BMI_TC05_VerifyNegativeInputs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01025366-f6cb-473b-8c45-24ff38af9ed0</testCaseGuid>
+</TestCaseEntity>
