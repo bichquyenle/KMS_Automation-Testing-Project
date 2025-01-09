@@ -9,4 +9,9 @@
       <initValue>'https://happyminds.onrender.com/video'</initValue>
       <name>URL_VIDEO_DETAILSL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://happyminds.onrender.com/'</initValue>
+      <name>URL_HOMEPAGE</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

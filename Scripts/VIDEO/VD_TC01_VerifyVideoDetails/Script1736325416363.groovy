@@ -54,3 +54,6 @@ if (expectedVideos == videoCountOnVideoPage) {
 } else {
 	WebUI.comment("Test Failed: The number of videos is not the same.")
 }
+
+//clean browser
+WebUI.closeBrowser()

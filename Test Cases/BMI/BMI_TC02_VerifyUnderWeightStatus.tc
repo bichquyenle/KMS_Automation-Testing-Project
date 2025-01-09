@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BMI_TC02_VerifyUnderWeightStatus</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b6fd7b5-1297-4470-aee1-30e6c5436051</testCaseGuid>
+</TestCaseEntity>
